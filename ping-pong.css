@@ -1,0 +1,37 @@
+body{
+    background-color: seashell;
+}
+#container{
+    position: relative;
+}
+#rod1, #rod2{
+    width: 200px;
+    height: 20px;
+    position: fixed;
+    left: 50%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+#rod1{
+    background-color: royalblue;
+    top: 0px;
+}
+#rod2{
+    background-color: slateblue;
+    bottom: 0px;
+}
+#ball{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: fixed;
+    top: 20px;
+    left: 52.5%;
+}
+#score, #score_value{
+    font-size: 30px;
+    color: green;
+}
